@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import './Projects.css';
-import ticketvideo from 'Client/src/assets/vedio/Ai Quiz.mp4';
-import quiz from 'Client/src/assets/vedio/chennai museum.mp4';
 
+// Using public URLs instead of import
 const projects = [
   {
     id: 1,
@@ -11,7 +10,7 @@ const projects = [
     description:
       'An AI chatbot system for Chennai Museum that lets users explore exhibits, book tickets, and make payments. Built with React.js, Flask, and MongoDB, it uses LangChain with LLaMA 3 for smart, natural conversations. Razorpay handles secure payments.',
     tags: ['React.js', 'Flask', 'MongoDB', 'Razorpay', 'LangChain', 'LLaMA 3'],
-    video: ticketvideo,
+    video: '/assets/vedio/chennai museum.mp4',
     github: 'https://github.com/Sanjayraj-k/TicketBookingchatbot.git',
     live: 'https://drive.google.com/drive/folders/1OOWh5aCHHF4S2SPqfTUkguF_ebY8Figg',
   },
@@ -21,7 +20,7 @@ const projects = [
     description:
       'An AI-powered quiz platform that generates questions from PDFs and auto-creates Google Forms for quizzes. Includes proctoring features like face tracking, tab switch detection, and speech monitoring. Built using React.js, Flask, MongoDB, and LLaMA 3 via LangChain.',
     tags: ['React.js', 'Flask', 'MongoDB', 'LangChain', 'LangGraph', 'LLaMA 3', 'Google Forms', 'Computer Vision'],
-    video: quiz,
+    video: '/assets/vedio/Ai Quiz.mp4',
     github: 'https://github.com/jeyachandranj/Google-Form-AI.git',
     live: 'https://drive.google.com/drive/folders/1OOWh5aCHHF4S2SPqfTUkguF_ebY8Figg',
   }
