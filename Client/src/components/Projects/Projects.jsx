@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import './Projects.css';
-import ticketvideo from '../../assets/vedio/chennai museum.mp4';
-import quiz from '../../assets/vedio/AI Quiz.mp4';
+import ticketvideo from 'Client/src/assets/vedio/Ai Quiz.mp4';
+import quiz from 'Client/src/assets/vedio/chennai museum.mp4';
 
 const projects = [
   {
