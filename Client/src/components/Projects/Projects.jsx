@@ -11,7 +11,7 @@ const projects = [
     description:
       'An AI chatbot system for Chennai Museum that lets users explore exhibits, book tickets, and make payments. Built with React.js, Flask, and MongoDB, it uses LangChain with LLaMA 3 for smart, natural conversations. Razorpay handles secure payments.',
     tags: ['React.js', 'Flask', 'MongoDB', 'Razorpay', 'LangChain', 'LLaMA 3'],
-    video: ticketvideo,
+    video: chennaiMuseumVideo,
     github: 'https://github.com/Sanjayraj-k/TicketBookingchatbot.git',
     live: 'https://drive.google.com/drive/folders/1OOWh5aCHHF4S2SPqfTUkguF_ebY8Figg',
   },
