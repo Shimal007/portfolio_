@@ -140,7 +140,7 @@ const HomePage = ({
                   Contact Me
                 </motion.a>
 <motion.a 
-  href="/resume.pdf" 
+  href="https://drive.google.com/file/d/1EZzRs3rhGvCutasnaGoi7KgFqKVYXtWt/view?usp=drive_link" 
   className="btn secondary"
   onMouseEnter={buttonEnter}
   onMouseLeave={buttonLeave}
