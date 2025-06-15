@@ -33,33 +33,6 @@ const projects = [
     video: app,
     github: 'https://github.com/Sanjayraj-k/Fitness_app.git',
     live: 'https://drive.google.com/drive/folders/13dqocupCOYRtiv6-7IjBPsy6PmxXyL9F?usp=sharing',
-  },
-  {
-    id: 4,
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with product listings, cart functionality, and secure checkout.',
-    tags: ['React.js', 'Node.js', 'MongoDB', 'Stripe'],
-    video: ticketvideo,
-    github: '#',
-    live: '#',
-  },
-  {
-    id: 5,
-    title: 'Task Management App',
-    description: 'A productivity app for managing tasks with drag-and-drop functionality and team collaboration features.',
-    tags: ['React.js', 'Firebase', 'Material UI'],
-    video: quiz,
-    github: '#',
-    live: '#',
-  },
-  {
-    id: 6,
-    title: 'Weather Dashboard',
-    description: 'Real-time weather application with forecasts and historical data visualization.',
-    tags: ['React.js', 'OpenWeather API', 'Chart.js'],
-    video: app,
-    github: '#',
-    live: '#',
   }
 ];
 
