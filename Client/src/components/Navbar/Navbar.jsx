@@ -98,7 +98,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
             <span className="tooltip">GitHub</span>
           </a>
           <a 
-            href="https://www.linkedin.com/in/shimal-akmal-a7b0ba291/" 
+            href="https://www.linkedin.com/in/shimal-akmal/" 
             target="_blank" 
             rel="noopener noreferrer"
             aria-label="Visit my LinkedIn profile"
